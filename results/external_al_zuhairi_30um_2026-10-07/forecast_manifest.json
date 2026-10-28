@@ -1,0 +1,39 @@
+{
+  "status": "forecast_saved_without_outcomes",
+  "cohort": "one_preprint_23_30um_failures",
+  "locked_blobs": {
+    "data/cohorts/development_v2_199_2026-10-06.csv": "ee9f6451e60b290c89c44f681b471b3c007c6f74",
+    "data/validation/al_zuhairi_2026_30um_external_prediction_inputs_23_2026-10-07.csv": "5079cdebfe22f6a6a57311c18e1487723c7ee7e1",
+    "results/development_v2/romano_transfer_fit_parameters.csv": "72bb25ca79d72effd2c2bbac4c30fffcbc80ed19",
+    "scripts/compare_development_v2.py": "f9b76f3457d4823845f3e3567131738d15236440",
+    "scripts/fit_m1_source_aware.py": "0a4fabe03bde4d0bad693cba2ac8ab4abd21ec87",
+    "scripts/fit_weibull_exact_baseline.py": "921c19a8a1bac5a15a6dc557fad89ce80d46bba7"
+  },
+  "expected_outcome_blob": "3847d10f768ee695fff8c2d22f13c73fc8a2af1d",
+  "forecast_blob": "9d0497d0d67f089c1b455e4539935f1318b213d4",
+  "script_blob": "f71cc10e09359719523e961a82302052f5cbb38c",
+  "n_specimens": 23,
+  "n_distributions": 12,
+  "n_forecasts": 276,
+  "arms": [
+    "C0",
+    "C1",
+    "S0",
+    "S1"
+  ],
+  "seeds": [
+    13,
+    29,
+    47,
+    71,
+    101
+  ],
+  "offset_tau": 0.25,
+  "training_R": 0.1,
+  "external_R": -1,
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}
