@@ -1,0 +1,28 @@
+{
+  "protocol": "docs/development_v2_precomparison_protocol_2026-10-06.md",
+  "input_blobs": {
+    "data/cohorts/development_v2_199_2026-10-06.csv": "ee9f6451e60b290c89c44f681b471b3c007c6f74",
+    "data/validation/development_v2_grouped_fold_assignments_2026-10-06.csv": "a4969bc3c6562036a5a980ca248ba78c5359fcba",
+    "data/validation/development_v2_grouped_fold_feasibility_2026-10-06.csv": "037337e85e5e7d36cb93a22ec8b4af41e2209e08"
+  },
+  "seeds": [
+    13,
+    29,
+    47,
+    71,
+    101
+  ],
+  "tau": 0.25,
+  "stop": 10000000,
+  "effective_synthetic_weight_per_source": 2.0,
+  "fit_nodes": 161,
+  "check_nodes": 321,
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "fit_problems": [],
+  "cohort_is_original_experimental_only": true,
+  "synthetic_is_training_only": true
+}
