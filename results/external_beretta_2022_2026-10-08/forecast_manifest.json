@@ -1,0 +1,30 @@
+{
+  "status": "forecast_saved_without_outcomes",
+  "locked_blobs": {
+    "data/cohorts/development_v2_199_2026-10-06.csv": "ee9f6451e60b290c89c44f681b471b3c007c6f74",
+    "data/validation/beretta_2022_esa_external_prediction_inputs_32_2026-10-08.csv": "c0ea81a023154e09cc59577ac28f88fd50cbed5e",
+    "results/development_v2/romano_transfer_fit_parameters.csv": "72bb25ca79d72effd2c2bbac4c30fffcbc80ed19",
+    "scripts/fit_m1_source_aware.py": "0a4fabe03bde4d0bad693cba2ac8ab4abd21ec87",
+    "scripts/fit_weibull_exact_baseline.py": "921c19a8a1bac5a15a6dc557fad89ce80d46bba7",
+    "scripts/compare_development_v2.py": "f9b76f3457d4823845f3e3567131738d15236440"
+  },
+  "expected_outcome_blob": "88387a39fd4bf873272b32948ebd94ad70f615c6",
+  "script_blob": "4e748a37563cd48a1fa603440f682d0f4fc137d8",
+  "forecast_blob": "733a84a7c66ddb11a90a4360fb58be337e0e7487",
+  "specimen_count": 32,
+  "forecast_count": 384,
+  "seeds": [
+    13,
+    29,
+    47,
+    71,
+    101
+  ],
+  "tau": 0.25,
+  "numerical_density_measure": "log10_cycles",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}
